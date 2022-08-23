@@ -1,0 +1,4 @@
+### _Program that finds the title of a text, by reading the text_ 
+***
+This program takes the ***comma separated file*** `.csv` where all the data of titles and their contents are stored, as well it takes the given `.txt` file for the title to be searched, then reads and saves them into memory. 
+The `.txt` file is the content of one of the titles in the database, which gives a match. It is made of repetitive text patterns. This is where this program with help of ***regular expression*** `regex` should detect the consequtive repeats and count theirs longest repetition, which is unique for each title.
